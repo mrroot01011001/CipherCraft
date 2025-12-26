@@ -1,41 +1,3 @@
-"""
-FORTIFY - Professional-Grade Encryption System v6.0
-==================================================
-
-A production-ready, auditable encryption system that prioritizes:
-- Cryptographic correctness over complexity
-- Industry best practices
-- Clean, maintainable code
-- Genuine security without marketing hype
-
-Security Model:
---------------
-1. Argon2id key derivation (memory-hard, side-channel resistant)
-2. XChaCha20-Poly1305 authenticated encryption (512-bit nonce space)
-3. HMAC-SHA3-512 authentication
-4. Comprehensive integrity verification
-5. Secure memory handling
-6. Side-channel attack mitigation
-
-Threat Model Protection:
------------------------
-✓ Brute force attacks (computationally infeasible)
-✓ Dictionary attacks (Argon2id memory hardness)
-✓ Rainbow tables (unique salts)
-✓ GPU/ASIC attacks (memory-hard)
-✓ Timing attacks (constant-time operations)
-✓ Tampering (authenticated encryption + HMAC)
-✓ Quantum computers (128-bit post-quantum security)
-✓ Side-channel attacks (careful implementation)
-
-Dependencies:
-------------
-pip install argon2-cffi cryptography
-
-Author: Built for ultimate security with professional standards
-License: MIT
-"""
-
 import os
 import sys
 import json
@@ -1029,3 +991,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
