@@ -529,7 +529,7 @@ class FortifyUI:
         banner = """
 ╔═══════════════════════════════════════════════════════════════════╗
 ║                                                                   
-║        🛡️  FORTIFY v6.0 - Professional Encryption System 🛡️        
+║        🛡️ CipherCraft - Professional Encryption System 🛡️        
 ║                                                                   
 ║                            
 ║                                                                   
@@ -991,4 +991,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
