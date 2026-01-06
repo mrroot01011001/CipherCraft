@@ -28,7 +28,7 @@ except ImportError:
 
 
 # ============================================================================
-# SECURITY CONSTANTS - Based on OWASP/NIST recommendations
+# SECURITY CONSTANTS - Based on OWASP/NIST
 # ============================================================================
 
 @dataclass(frozen=True)
@@ -991,5 +991,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
